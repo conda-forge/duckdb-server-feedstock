@@ -1,5 +1,5 @@
 {% set name = "duckdb-server" %}
-{% set version = "0.25.0" %}
+{% set version = "0.26.0" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/duckdb_server-{{ version }}.tar.gz
-  sha256: f8b2c32ff6a06edb0cf795e435239a8bc842bf447ea74f588c96a8608cf3fbe1
+  sha256: 6654fb608a7a81d67b0fb213bc891640afdf3eb19896cde2b140b77811b4fa5d
 
 build:
   entry_points:
